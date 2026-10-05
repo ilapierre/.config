@@ -4,7 +4,13 @@ vim.opt.relativenumber = true
 
 vim.opt.clipboard:append { 'unnamed', 'unnamedplus' }
 
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "base16-0x96f"
+-- vim.cmd.colorscheme "no-clown-fiesta-light"
+-- vim.cmd.colorscheme "no-clown-fiesta"
+
+vim.opt.cmdheight = 0
+
+vim.opt.splitright = true
 
 vim.diagnostic.config({ virtual_text = true })
 

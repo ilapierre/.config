@@ -186,3 +186,4 @@ modified = '󰑕 $count '
 staged = '[++\($count\)](green)'
 renamed = ' $count '
 deleted = '󰆴 $count '
+
