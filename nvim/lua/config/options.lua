@@ -2,9 +2,11 @@ vim.opt.wrap = false
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+vim.o.autoread = true
+
 vim.opt.clipboard:append { 'unnamed', 'unnamedplus' }
 
-vim.cmd.colorscheme "base16-0x96f"
+vim.cmd.colorscheme "base16-tinta"
 -- vim.cmd.colorscheme "no-clown-fiesta-light"
 -- vim.cmd.colorscheme "no-clown-fiesta"
 
